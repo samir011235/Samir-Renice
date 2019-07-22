@@ -1,6 +1,36 @@
+
+body {
+	background-color: rgba(220, 222, 224);
+	font-family: 'Lato', sans-serif;
+}
+
+#title {
+	text-align: center;
+}
+
+
 #img-div > img {
 	display: block;
-	margin: auto;
+	margin: 50px auto;
 	max-width: 300px;
-	
+
+}
+
+#img-div figcaption {
+	text-align: center;
+	font-weight: bold;
+	margin: 20px;
+}
+
+#tribute-info ul {
+	margin: 5px 170px;
+}
+
+#tribute-info li {
+	text-align: justify;
+}
+
+#tribute-link {
+	text-align: center;
+	font-size: 20px;
 }
